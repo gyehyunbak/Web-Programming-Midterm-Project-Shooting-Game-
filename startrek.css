@@ -1,0 +1,85 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    border: 0;
+    overflow: hidden;
+    display: block;
+    font-family: 'Press Start 2P', cursive;
+}
+
+canvas {
+    position: relative;
+    background: rgb(0, 0, 0);
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: auto;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    height: 100%;
+}
+
+h3 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.score {
+    position: relative;
+    text-align: center;
+    padding: 30px;
+}
+
+.gameStarter {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: whitesmoke;
+    margin: 0 auto;
+}
+
+.gameStarter > div {
+    margin-top: 300px;
+}
+
+#scoreElTwo {
+    font-size: 50px;
+}
+
+#startGame {
+    width: 150px;
+    height: 40px;
+    font-family: 'Press Start 2P', cursive;
+    border: 0;
+    outline: 0;
+    margin: 1px;
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: rgb(174, 11, 11);
+}
+
+#startGame:hover {
+    transform: scale(1.1);
+}
+
+#startGame:active {
+    transform: scale(0.9);
+}

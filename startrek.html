@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Star Trek</title>
+        <style>
+            @import url(startrek.css);
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> <!--웹에서 폰트 가져오기-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        </head>
+        
+        <body>
+            <h3>COSMIC ODESSEY</h3>
+
+        <div class="score"><span>SCORE </span><span id="scoreEl">0</span></div> <!-- 점수 -->
+
+        <div class=gameStarter id="startWindow"> <!--시작 창-->
+            <div>
+                <h1 id="scoreElTwo">0</h1>
+                <p>POINTS</p><br>
+                <p>HIGH SCORE: <span id="highScoreEl">0</span></p><br> <!--최고 점수 표시-->
+                <div>
+                    <button id="startGame">New Game</button>
+                </div>
+            </div>
+        </div>
+
+        <canvas id="gameCanvas"></canvas>
+        <script src="./startrek.js"></script>
+    </body>
+</html>
